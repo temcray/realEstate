@@ -1,0 +1,72 @@
+/*global*/
+a{
+    color: white;
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    line-height: 1.5;
+}   
+
+h1{
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+
+/*header*/
+.site-header{
+    background-image: url(img/header.jpg);
+    height: 300px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+/*about*/
+.about-container{
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    text-align: center;
+}
+
+/*utilities*/
+.container{
+    width: 80%;
+    margin: 50px auto;
+
+}
+.text-price{
+    color: green;
+    font-weight: bold;
+}
+.btn-details{
+    display: block;
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+/*Houses*/
+.house-container{
+
+}
+.house-item{
+    background-color: #dedede;
+}
+.house-item-text{
+    padding: 20px;
+}
