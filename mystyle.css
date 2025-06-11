@@ -60,13 +60,27 @@ h2{
 
 }
 
+
 /*Houses*/
 .house-container{
+  display: contents;
+  flex-direction: row;
+  justify-content: center;
+}  
 
-}
+
 .house-item{
-    background-color: #dedede;
+ background-color: #dedede;
 }
 .house-item-text{
     padding: 20px;
+    display: block;
+
 }
+
+
+
+
+
+    
+
