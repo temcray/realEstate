@@ -63,21 +63,29 @@ h2{
 
 /*Houses*/
 .house-container{
-  display: contents;
-  flex-direction: row;
-  justify-content: center;
+  display: flex;
+  
 }  
 
 
 .house-item{
  background-color: #dedede;
+ margin-right: 10px;
 }
 .house-item-text{
     padding: 20px;
-    display: block;
+    
 
 }
-
+.house-item-details{
+    display: flex;
+}
+.icons-container{
+    display: flex;
+}
+.icons-container li{
+    margin-right: 10px;
+}
 
 
 

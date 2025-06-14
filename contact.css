@@ -1,0 +1,137 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    font-family: arial;
+}
+p{
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+
+}
+
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+/*header*/
+.secondary-header{
+    background-color:orange ;
+    height: 200px;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a{
+color: black; margin-right: 20px;
+}
+
+/*main*/
+.main-text{
+    text-align: center;
+
+}
+
+/*form*/
+.my-form-1{
+ background-color: gray;
+ padding: 20px;
+ border-radius: 10px;
+align-items: 20px;
+
+}
+
+.my-form fieldset{
+    border-radius: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: 20px;
+}
+
+.my-form div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.my-form label{
+    width: 20%;
+}
+
+
+.my-form input,
+.my-form textarea{
+    width: 80%;
+    padding: 5px;
+  
+}
+
+
+/*footer*/
+.footer-container{
+    background-color: lightgray;
+    height: 200px;
+}
+
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+
+.my-flex{
+    display: flex;
+}
+
+
+.footer-text p:last-of-type{
+    font-weight: bold;
+    border-left: 3px solid black;
+    padding-left: 20px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.footer-icons div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.my-form-2{
+    background-color: gray;
+    padding: 200px;
+    border-radius: 10px;
+    align-items: 20px;
+    
+
+}
+.my-form-3{
+    background-color: gray;
+    padding: 200px;
+    border-radius: 10px;
+    align-items: 20px;
+}
+
