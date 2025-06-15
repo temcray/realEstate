@@ -1,25 +1,33 @@
 /*global*/
-a{
+a {
     color: white;
     text-decoration: none;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-p{
-    line-height: 1.5;
-}   
 
-h1{
+p {
+    line-height: 1.5;
+}
+
+h1 {
     color: white;
 }
-img{
+
+h3 {
+    margin: 10px 0px;
+}
+
+img {
     max-width: 100%;
+    margin: 10px 0px;
 }
 
 /*header*/
-.site-header{
+.site-header {
     background-image: url(img/header.jpg);
     height: 300px;
     background-size: cover;
@@ -28,26 +36,28 @@ img{
 }
 
 /*about*/
-.about-container{
+.about-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
 /*utilities*/
-.container{
+.container {
     width: 80%;
     margin: 50px auto;
 
 }
-.text-price{
+
+.text-price {
     color: green;
     font-weight: bold;
 }
-.btn-details{
+
+.btn-details {
     display: block;
     background-color: orange;
     color: white;
@@ -62,33 +72,91 @@ h2{
 
 
 /*Houses*/
-.house-container{
-  display: flex;
-  
-}  
+.houses-container {
+    display: flex;
 
 
-.house-item{
- background-color: #dedede;
- margin-right: 10px;
 }
-.house-item-text{
+
+
+.houses-item {
+    background-color: #dedede;
+    margin-right: 10px;
+    flex-direction: row;
+}
+
+.houses-item-text {
     padding: 20px;
-    
+
 
 }
-.house-item-details{
+
+.houses-item-details {
     display: flex;
+    justify-content: space-between;
+    margin: 20px;
 }
-.icons-container{
+
+.icons-container {
     display: flex;
+    justify-content: space-around;
 }
-.icons-container li{
+
+.icons-container img {
     margin-right: 10px;
 }
 
+/*table*/
+@media((min-width:601px)and(max-width:768px)) {
+    .about-container {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .about-container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-container img {
+        width: 20%;
+    }
+
+    .house-container {
+        flex-direction: column;
+    }
+
+    .house-item {
+        margin: 10px 0px;
+    }
 
 
+}
 
-    
 
+/*phone*/
+@media((max-width:600px)) {
+    .about-container {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .about-container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-container img {
+        width: 40;
+    }
+
+    .house-container {
+        flex-direction: column;
+    }
+
+    .house-item {
+        margin: 10px 0px;
+    }
+}
